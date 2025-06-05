@@ -282,7 +282,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		<script>
   document.addEventListener("DOMContentLoaded", () => {
     const fileInputs = document.querySelectorAll('input[type="file"]');
-    const maxSizeMB = 1;
+    const maxSizeMB = 2; // ✅ Changed from 1 to 2
 
     fileInputs.forEach(input => {
       input.addEventListener("change", (e) => {
@@ -298,6 +298,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     });
   });
 </script>
+
 
 		<script>
 document.getElementById("form-token").value = btoa(Date.now() + "-verified");
